@@ -24,6 +24,8 @@ class Kernel:
     waiting_queue: deque[PCB]
     running: PCB
     idle_pcb: PCB
+    total_wait_time: int
+    total_turnaround_time: int
 
     # Called before the simulation begins.
     # Use this method to initilize any variables you need throughout the simulation.
@@ -36,18 +38,26 @@ class Kernel:
         self.waiting_queue = deque()
         self.idle_pcb = PCB(0)
         self.running = self.idle_pcb
+        self.total_wait_time = 0
+        self.total_turnaround_time = 0
 
     # This method is triggered every time a new process has arrived.
     # new_process is this process's PID.
     # DO NOT rename or delete this method. DO NOT change its arguments.
     def new_process_arrived(self, new_process: PID) -> PID:
+        new_pcb = PCB(new_process)
+        self.ready_queue.append(new_pcb)
+
+        if self.running.pid == 0:
+            self.choose_next_process()
+
         return self.running.pid
 
     # This method is triggered every time the current process performs an exit syscall.
     # DO NOT rename or delete this method. DO NOT change its arguments.
     def syscall_exit(self) -> PID:
+        self.choose_next_process()
         return self.running.pid
-    
 
     # This is where you can select the next process to run.
     # This method is not directly called by the simulator and is purely for your convinience.
@@ -55,11 +65,14 @@ class Kernel:
     # It is not required to actually use this method but it is recommended.
     def choose_next_process(self):
         if len(self.ready_queue) == 0:
-                return self.idle_pcb
+            self.running = self.idle_pcb
+            return self.idle_pcb
         
         if self.scheduling_algorithm == "FCFS":
-            self.running = self.idle_pcb
+            self.running = self.ready_queue.popleft()
+            return self.running
         else:
             print("Unknown scheduling algorithm")
+            return self.idle_pcb
         
 
