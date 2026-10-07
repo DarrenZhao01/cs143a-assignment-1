@@ -1,0 +1,28 @@
+0.000s : Process 1 arrived
+0.000s : Context switching to pid: 1
+0.000s : Process 2 arrived
+0.000s : Process 3 arrived
+
+0.030s : Process 4 arrived
+
+0.060s : Process 1 has finished execution and is exiting
+0.060s : Context switching to pid: 2
+
+0.100s : Process 2 has finished execution and is exiting
+0.100s : Context switching to pid: 3
+
+0.150s : Process 5 arrived
+0.150s : Process 6 arrived
+
+0.180s : Process 3 has finished execution and is exiting
+0.180s : Context switching to pid: 4
+
+0.205s : Process 4 has finished execution and is exiting
+0.205s : Context switching to pid: 5
+
+0.215s : Process 5 has finished execution and is exiting
+0.215s : Context switching to pid: 6
+
+0.250s : Process 6 has finished execution and is exiting
+0.250s : Context switching to pid: 0
+

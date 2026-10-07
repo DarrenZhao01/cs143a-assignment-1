@@ -1,0 +1,162 @@
+0.000s : Process 1 arrived
+0.000s : Context switching to pid: 1
+
+0.005s : Process 1 has finished execution and is exiting
+0.005s : Context switching to pid: 0
+
+0.037s : Process 2 arrived
+0.037s : Context switching to pid: 2
+
+0.074s : Process 3 arrived
+
+0.095s : Process 2 has finished execution and is exiting
+0.095s : Context switching to pid: 3
+
+0.111s : Process 4 arrived
+
+0.116s : Process 3 has finished execution and is exiting
+0.116s : Context switching to pid: 4
+
+0.148s : Process 5 arrived
+
+0.185s : Process 6 arrived
+
+0.190s : Process 4 has finished execution and is exiting
+0.190s : Context switching to pid: 5
+
+0.222s : Process 7 arrived
+
+0.227s : Process 5 has finished execution and is exiting
+0.227s : Context switching to pid: 6
+
+0.259s : Process 8 arrived
+
+0.296s : Process 9 arrived
+
+0.317s : Process 6 has finished execution and is exiting
+0.317s : Context switching to pid: 7
+
+0.333s : Process 10 arrived
+
+0.370s : Process 7 has finished execution and is exiting
+0.370s : Context switching to pid: 8
+
+0.386s : Process 8 has finished execution and is exiting
+0.386s : Context switching to pid: 9
+
+0.455s : Process 9 has finished execution and is exiting
+0.455s : Context switching to pid: 10
+
+0.487s : Process 10 has finished execution and is exiting
+0.487s : Context switching to pid: 0
+
+0.770s : Process 11 arrived
+0.770s : Context switching to pid: 11
+
+0.807s : Process 12 arrived
+
+0.825s : Process 13 arrived
+
+0.844s : Process 14 arrived
+
+0.855s : Process 11 has finished execution and is exiting
+0.855s : Context switching to pid: 12
+
+0.862s : Process 15 arrived
+
+0.881s : Process 16 arrived
+
+0.899s : Process 17 arrived
+
+0.903s : Process 12 has finished execution and is exiting
+0.903s : Context switching to pid: 13
+
+0.918s : Process 18 arrived
+
+0.936s : Process 19 arrived
+
+0.955s : Process 20 arrived
+
+0.973s : Process 13 has finished execution and is exiting
+0.973s : Context switching to pid: 14
+0.973s : Process 21 arrived
+
+0.984s : Process 14 has finished execution and is exiting
+0.984s : Context switching to pid: 15
+
+0.992s : Process 22 arrived
+
+1.017s : Process 15 has finished execution and is exiting
+1.017s : Context switching to pid: 16
+
+1.029s : Process 23 arrived
+
+1.066s : Process 24 arrived
+
+1.081s : Process 16 has finished execution and is exiting
+1.081s : Context switching to pid: 17
+
+1.103s : Process 25 arrived
+
+1.167s : Process 17 has finished execution and is exiting
+1.167s : Context switching to pid: 18
+
+1.194s : Process 18 has finished execution and is exiting
+1.194s : Context switching to pid: 19
+
+1.243s : Process 19 has finished execution and is exiting
+1.243s : Context switching to pid: 20
+
+1.323s : Process 20 has finished execution and is exiting
+1.323s : Context switching to pid: 21
+
+1.335s : Process 21 has finished execution and is exiting
+1.335s : Context switching to pid: 22
+
+1.378s : Process 22 has finished execution and is exiting
+1.378s : Context switching to pid: 23
+
+1.384s : Process 23 has finished execution and is exiting
+1.384s : Context switching to pid: 24
+
+1.410s : Process 26 arrived
+
+1.443s : Process 24 has finished execution and is exiting
+1.443s : Context switching to pid: 25
+
+1.447s : Process 27 arrived
+
+1.465s : Process 25 has finished execution and is exiting
+1.465s : Context switching to pid: 26
+
+1.530s : Process 26 has finished execution and is exiting
+1.530s : Context switching to pid: 27
+
+1.540s : Process 28 arrived
+
+1.558s : Process 27 has finished execution and is exiting
+1.558s : Context switching to pid: 28
+
+1.577s : Process 29 arrived
+
+1.614s : Process 30 arrived
+
+1.633s : Process 28 has finished execution and is exiting
+1.633s : Context switching to pid: 29
+
+1.651s : Process 31 arrived
+
+1.671s : Process 29 has finished execution and is exiting
+1.671s : Context switching to pid: 30
+
+1.688s : Process 32 arrived
+
+1.762s : Process 30 has finished execution and is exiting
+1.762s : Context switching to pid: 31
+
+1.816s : Process 31 has finished execution and is exiting
+1.816s : Context switching to pid: 32
+
+1.833s : Process 32 has finished execution and is exiting
+1.833s : Context switching to pid: 0
+
