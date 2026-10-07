@@ -202,5 +202,575 @@
             "turn_around_time": "280ms",
             "waiting_time": "194ms"
         }
+    },
+    "FCFS11": {
+        "PID 1": {
+            "turn_around_time": "500ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "501ms",
+            "waiting_time": "490ms"
+        },
+        "PID 3": {
+            "turn_around_time": "499ms",
+            "waiting_time": "481ms"
+        },
+        "PID 4": {
+            "turn_around_time": "504ms",
+            "waiting_time": "479ms"
+        },
+        "PID 5": {
+            "turn_around_time": "516ms",
+            "waiting_time": "484ms"
+        },
+        "PID 6": {
+            "turn_around_time": "535ms",
+            "waiting_time": "496ms"
+        },
+        "PID 7": {
+            "turn_around_time": "561ms",
+            "waiting_time": "515ms"
+        },
+        "PID 8": {
+            "turn_around_time": "594ms",
+            "waiting_time": "541ms"
+        },
+        "PID 9": {
+            "turn_around_time": "634ms",
+            "waiting_time": "574ms"
+        },
+        "PID 10": {
+            "turn_around_time": "681ms",
+            "waiting_time": "614ms"
+        },
+        "Average": {
+            "turn_around_time": "552ms",
+            "waiting_time": "467ms"
+        }
+    },
+    "FCFS12": {
+        "PID 1": {
+            "turn_around_time": "100ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "55ms",
+            "waiting_time": "10ms"
+        },
+        "PID 3": {
+            "turn_around_time": "60ms",
+            "waiting_time": "0ms"
+        },
+        "PID 4": {
+            "turn_around_time": "30ms",
+            "waiting_time": "0ms"
+        },
+        "PID 5": {
+            "turn_around_time": "10ms",
+            "waiting_time": "0ms"
+        },
+        "Average": {
+            "turn_around_time": "51ms",
+            "waiting_time": "2ms"
+        }
+    },
+    "FCFS13": {
+        "PID 1": {
+            "turn_around_time": "50ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "40ms",
+            "waiting_time": "0ms"
+        },
+        "PID 3": {
+            "turn_around_time": "20ms",
+            "waiting_time": "0ms"
+        },
+        "PID 4": {
+            "turn_around_time": "100ms",
+            "waiting_time": "0ms"
+        },
+        "PID 5": {
+            "turn_around_time": "5ms",
+            "waiting_time": "0ms"
+        },
+        "PID 6": {
+            "turn_around_time": "60ms",
+            "waiting_time": "0ms"
+        },
+        "Average": {
+            "turn_around_time": "45ms",
+            "waiting_time": "0ms"
+        }
+    },
+    "FCFS14": {
+        "PID 1": {
+            "turn_around_time": "10ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "5ms",
+            "waiting_time": "0ms"
+        },
+        "PID 3": {
+            "turn_around_time": "20ms",
+            "waiting_time": "0ms"
+        },
+        "Average": {
+            "turn_around_time": "11ms",
+            "waiting_time": "0ms"
+        }
+    },
+    "FCFS15": {
+        "PID 1": {
+            "turn_around_time": "1500ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "1404ms",
+            "waiting_time": "1400ms"
+        },
+        "PID 3": {
+            "turn_around_time": "1309ms",
+            "waiting_time": "1304ms"
+        },
+        "PID 4": {
+            "turn_around_time": "1215ms",
+            "waiting_time": "1209ms"
+        },
+        "PID 5": {
+            "turn_around_time": "1122ms",
+            "waiting_time": "1115ms"
+        },
+        "PID 6": {
+            "turn_around_time": "1030ms",
+            "waiting_time": "1022ms"
+        },
+        "PID 7": {
+            "turn_around_time": "939ms",
+            "waiting_time": "930ms"
+        },
+        "PID 8": {
+            "turn_around_time": "849ms",
+            "waiting_time": "839ms"
+        },
+        "Average": {
+            "turn_around_time": "1171ms",
+            "waiting_time": "977ms"
+        }
+    },
+    "FCFS16": {
+        "PID 1": {
+            "turn_around_time": "5ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "12ms",
+            "waiting_time": "4ms"
+        },
+        "PID 3": {
+            "turn_around_time": "24ms",
+            "waiting_time": "11ms"
+        },
+        "PID 4": {
+            "turn_around_time": "1223ms",
+            "waiting_time": "23ms"
+        },
+        "PID 5": {
+            "turn_around_time": "2106ms",
+            "waiting_time": "1206ms"
+        },
+        "Average": {
+            "turn_around_time": "674ms",
+            "waiting_time": "248ms"
+        }
+    },
+    "FCFS17": {
+        "PID 1": {
+            "turn_around_time": "1ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "2ms",
+            "waiting_time": "1ms"
+        },
+        "PID 3": {
+            "turn_around_time": "2ms",
+            "waiting_time": "1ms"
+        },
+        "PID 4": {
+            "turn_around_time": "2ms",
+            "waiting_time": "1ms"
+        },
+        "PID 5": {
+            "turn_around_time": "3ms",
+            "waiting_time": "2ms"
+        },
+        "PID 6": {
+            "turn_around_time": "1ms",
+            "waiting_time": "0ms"
+        },
+        "PID 7": {
+            "turn_around_time": "1ms",
+            "waiting_time": "0ms"
+        },
+        "Average": {
+            "turn_around_time": "1ms",
+            "waiting_time": "0ms"
+        }
+    },
+    "FCFS18": {
+        "PID 1": {
+            "turn_around_time": "20ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "21ms",
+            "waiting_time": "20ms"
+        },
+        "PID 3": {
+            "turn_around_time": "17ms",
+            "waiting_time": "16ms"
+        },
+        "PID 4": {
+            "turn_around_time": "1ms",
+            "waiting_time": "0ms"
+        },
+        "PID 5": {
+            "turn_around_time": "15ms",
+            "waiting_time": "0ms"
+        },
+        "Average": {
+            "turn_around_time": "14ms",
+            "waiting_time": "7ms"
+        }
+    },
+    "FCFS19": {
+        "PID 1": {
+            "turn_around_time": "60ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "100ms",
+            "waiting_time": "60ms"
+        },
+        "PID 3": {
+            "turn_around_time": "180ms",
+            "waiting_time": "100ms"
+        },
+        "PID 4": {
+            "turn_around_time": "175ms",
+            "waiting_time": "150ms"
+        },
+        "PID 5": {
+            "turn_around_time": "65ms",
+            "waiting_time": "55ms"
+        },
+        "PID 6": {
+            "turn_around_time": "100ms",
+            "waiting_time": "65ms"
+        },
+        "Average": {
+            "turn_around_time": "113ms",
+            "waiting_time": "71ms"
+        }
+    },
+    "FCFS20": {
+        "PID 1": {
+            "turn_around_time": "60ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "70ms",
+            "waiting_time": "40ms"
+        },
+        "PID 3": {
+            "turn_around_time": "25ms",
+            "waiting_time": "0ms"
+        },
+        "PID 4": {
+            "turn_around_time": "65ms",
+            "waiting_time": "25ms"
+        },
+        "PID 5": {
+            "turn_around_time": "105ms",
+            "waiting_time": "55ms"
+        },
+        "PID 6": {
+            "turn_around_time": "100ms",
+            "waiting_time": "95ms"
+        },
+        "Average": {
+            "turn_around_time": "70ms",
+            "waiting_time": "35ms"
+        }
+    },
+    "FCFS21": {
+        "PID 1": {
+            "turn_around_time": "5ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "58ms",
+            "waiting_time": "0ms"
+        },
+        "PID 3": {
+            "turn_around_time": "42ms",
+            "waiting_time": "21ms"
+        },
+        "PID 4": {
+            "turn_around_time": "79ms",
+            "waiting_time": "5ms"
+        },
+        "PID 5": {
+            "turn_around_time": "79ms",
+            "waiting_time": "42ms"
+        },
+        "PID 6": {
+            "turn_around_time": "132ms",
+            "waiting_time": "42ms"
+        },
+        "PID 7": {
+            "turn_around_time": "148ms",
+            "waiting_time": "95ms"
+        },
+        "PID 8": {
+            "turn_around_time": "127ms",
+            "waiting_time": "111ms"
+        },
+        "PID 9": {
+            "turn_around_time": "159ms",
+            "waiting_time": "90ms"
+        },
+        "PID 10": {
+            "turn_around_time": "154ms",
+            "waiting_time": "122ms"
+        },
+        "PID 11": {
+            "turn_around_time": "85ms",
+            "waiting_time": "0ms"
+        },
+        "PID 12": {
+            "turn_around_time": "96ms",
+            "waiting_time": "48ms"
+        },
+        "PID 13": {
+            "turn_around_time": "148ms",
+            "waiting_time": "78ms"
+        },
+        "PID 14": {
+            "turn_around_time": "140ms",
+            "waiting_time": "129ms"
+        },
+        "PID 15": {
+            "turn_around_time": "155ms",
+            "waiting_time": "122ms"
+        },
+        "PID 16": {
+            "turn_around_time": "200ms",
+            "waiting_time": "136ms"
+        },
+        "PID 17": {
+            "turn_around_time": "268ms",
+            "waiting_time": "182ms"
+        },
+        "PID 18": {
+            "turn_around_time": "276ms",
+            "waiting_time": "249ms"
+        },
+        "PID 19": {
+            "turn_around_time": "307ms",
+            "waiting_time": "258ms"
+        },
+        "PID 20": {
+            "turn_around_time": "368ms",
+            "waiting_time": "288ms"
+        },
+        "PID 21": {
+            "turn_around_time": "362ms",
+            "waiting_time": "350ms"
+        },
+        "PID 22": {
+            "turn_around_time": "386ms",
+            "waiting_time": "343ms"
+        },
+        "PID 23": {
+            "turn_around_time": "355ms",
+            "waiting_time": "349ms"
+        },
+        "PID 24": {
+            "turn_around_time": "377ms",
+            "waiting_time": "318ms"
+        },
+        "PID 25": {
+            "turn_around_time": "362ms",
+            "waiting_time": "340ms"
+        },
+        "PID 26": {
+            "turn_around_time": "120ms",
+            "waiting_time": "55ms"
+        },
+        "PID 27": {
+            "turn_around_time": "111ms",
+            "waiting_time": "83ms"
+        },
+        "PID 28": {
+            "turn_around_time": "93ms",
+            "waiting_time": "18ms"
+        },
+        "PID 29": {
+            "turn_around_time": "94ms",
+            "waiting_time": "56ms"
+        },
+        "PID 30": {
+            "turn_around_time": "148ms",
+            "waiting_time": "57ms"
+        },
+        "PID 31": {
+            "turn_around_time": "165ms",
+            "waiting_time": "111ms"
+        },
+        "PID 32": {
+            "turn_around_time": "145ms",
+            "waiting_time": "128ms"
+        },
+        "Average": {
+            "turn_around_time": "179ms",
+            "waiting_time": "132ms"
+        }
+    },
+    "FCFS22": {
+        "PID 1": {
+            "turn_around_time": "4000ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "6500ms",
+            "waiting_time": "3000ms"
+        },
+        "PID 3": {
+            "turn_around_time": "8250ms",
+            "waiting_time": "5500ms"
+        },
+        "PID 4": {
+            "turn_around_time": "2484ms",
+            "waiting_time": "1250ms"
+        },
+        "PID 5": {
+            "turn_around_time": "999ms",
+            "waiting_time": "0ms"
+        },
+        "Average": {
+            "turn_around_time": "4446ms",
+            "waiting_time": "1950ms"
+        }
+    },
+    "FCFS23": {
+        "PID 1": {
+            "turn_around_time": "196ms",
+            "waiting_time": "0ms"
+        },
+        "PID 2": {
+            "turn_around_time": "208ms",
+            "waiting_time": "196ms"
+        },
+        "PID 3": {
+            "turn_around_time": "396ms",
+            "waiting_time": "208ms"
+        },
+        "PID 4": {
+            "turn_around_time": "416ms",
+            "waiting_time": "390ms"
+        },
+        "PID 5": {
+            "turn_around_time": "428ms",
+            "waiting_time": "398ms"
+        },
+        "PID 6": {
+            "turn_around_time": "428ms",
+            "waiting_time": "387ms"
+        },
+        "PID 7": {
+            "turn_around_time": "511ms",
+            "waiting_time": "428ms"
+        },
+        "PID 8": {
+            "turn_around_time": "366ms",
+            "waiting_time": "311ms"
+        },
+        "PID 9": {
+            "turn_around_time": "248ms",
+            "waiting_time": "148ms"
+        },
+        "PID 10": {
+            "turn_around_time": "273ms",
+            "waiting_time": "248ms"
+        },
+        "PID 11": {
+            "turn_around_time": "373ms",
+            "waiting_time": "273ms"
+        },
+        "PID 12": {
+            "turn_around_time": "483ms",
+            "waiting_time": "336ms"
+        },
+        "PID 13": {
+            "turn_around_time": "478ms",
+            "waiting_time": "437ms"
+        },
+        "PID 14": {
+            "turn_around_time": "618ms",
+            "waiting_time": "478ms"
+        },
+        "PID 15": {
+            "turn_around_time": "655ms",
+            "waiting_time": "618ms"
+        },
+        "PID 16": {
+            "turn_around_time": "635ms",
+            "waiting_time": "631ms"
+        },
+        "PID 17": {
+            "turn_around_time": "672ms",
+            "waiting_time": "635ms"
+        },
+        "PID 18": {
+            "turn_around_time": "788ms",
+            "waiting_time": "672ms"
+        },
+        "PID 19": {
+            "turn_around_time": "793ms",
+            "waiting_time": "788ms"
+        },
+        "PID 20": {
+            "turn_around_time": "934ms",
+            "waiting_time": "793ms"
+        },
+        "PID 21": {
+            "turn_around_time": "1051ms",
+            "waiting_time": "934ms"
+        },
+        "PID 22": {
+            "turn_around_time": "675ms",
+            "waiting_time": "674ms"
+        },
+        "PID 23": {
+            "turn_around_time": "691ms",
+            "waiting_time": "629ms"
+        },
+        "PID 24": {
+            "turn_around_time": "697ms",
+            "waiting_time": "691ms"
+        },
+        "PID 25": {
+            "turn_around_time": "714ms",
+            "waiting_time": "663ms"
+        },
+        "Average": {
+            "turn_around_time": "549ms",
+            "waiting_time": "478ms"
+        }
     }
 }
